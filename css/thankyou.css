@@ -1,0 +1,12 @@
+@import url("../css/fonts.css");  
+
+h1 {
+font-size:50px;
+font-family:montserrat;
+color:white;
+
+}
+body {
+    background: linear-gradient(90deg, rgba(48,195,34,1) 0%, rgba(45,253,151,1) 100%);
+
+}

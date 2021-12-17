@@ -1,0 +1,210 @@
+@import url("../css/fonts.css");   
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;600&display=swap');
+
+html, body {                    
+    margin:0%;     
+    font-family:Readex Pro; 
+    color:white;
+  
+}
+                           
+a {
+    text-decoration: none; 
+    color:#3f4954;  
+}
+
+.flex-row {
+    display:flex;        
+    flex-direction:row;    
+}
+ul {
+    list-style-type: none; 
+}
+
+h1{                         
+    font-size:1cm;
+}
+
+
+h3{
+    font-size:0.6cm;
+}
+
+/*<--NAVBAR-->*/
+.nav{
+    background: white;      
+    padding: 0 0.8cm; 
+
+}
+
+ .nav-menu {
+    justify-content: space-between;
+}
+
+ .nav-items{
+    display:flex;
+    margin:0;
+    text-align:center;
+    justify-content: center;
+}
+
+.nav-link {
+    padding: 0.7cm 0.4cm;
+    font-size: 0.5cm;
+    position:relative;
+    font-family:Readex Pro, sans-serif;
+    height:0.3cm; 
+}
+
+
+.nav-link:hover a {
+    color:green;  
+    transition: all 0.5s ease;  
+}
+
+.navlogo a {
+    font-size: 0.7cm;
+    padding: 0.4cm 0cm;
+    display:block;
+    font-family: Roboto;
+    font-size:0.7cm;
+   
+}
+
+
+.social{
+    padding: 0.6cm 0cm;
+   
+}
+
+ .social a{
+    padding: 0cm 0.1cm;
+
+}
+
+
+.site-title {
+    background:url("../Bilder/solarpanels1.jpg"); 
+    background-size:cover; 
+    height:110vh;
+    display:flex;
+    justify-content:center;   
+
+}
+
+ .site-background {
+    padding-top: 4cm;
+    text-align:center; 
+
+}   
+
+ .site-title h1,h3 {
+    margin: 0.1cm;
+
+}
+
+button {
+    margin:0.7cm;
+    background:linear-gradient(45deg, #2b9348 0%, #55a630 99%, #80b918 100%); 
+    outline:none;
+    border:none;            
+    border-radius:0.85cm;  
+    padding: 0.4cm 1.2cm;  
+    font-size:0.6cm;
+    font-family:roboto;
+    cursor:pointer; 
+    color:white;
+
+}
+button:hover { 
+    transform: scale(1.1);    
+    transition: all 0.5s ease;   
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+
+/*<--FOOTER-->*/
+.footer{
+	background-color: green;
+    padding: 70px 0;
+    justify-content: space-between;
+    font-family:montserrat;
+    border-radius: 10px;
+    
+}
+.col{
+   width: 25%;
+   padding: 0 15px;
+   
+}
+.col h4{
+	font-size: 24px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+    font-family:Lexend;
+}
+
+
+.col ul li a{
+	font-size: 22px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 300;
+	color: white;
+	display: block;
+	transition: all 0.3s ease;
+}
+.col ul li a:hover{
+color:rgb(110, 110, 110);
+}
+.social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;  
+}
+.social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*passt sich größe an */
+@media(max-width: 767px){
+  .col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .col{
+    width: 100%;
+}
+}
+
+#img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

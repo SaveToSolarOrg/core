@@ -1,0 +1,126 @@
+@font-face{
+    font-family:montserrat;
+    src:url("../fonts/Montserrat-Regular.ttf");
+}
+
+  * {
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+} 
+
+  
+  textarea {
+    outline: none;
+    border: none;
+    resize: none;
+  }
+  
+  .contact {
+    width: 100%;
+    min-height: 100%;
+    padding: 15px;
+    background: linear-gradient(90deg, rgba(48,195,34,1) 0%, rgba(45,253,151,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container{
+    width: 1163px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 130px 88px 148px;
+  }
+  
+ 
+.contact-pic {
+    width: 296px;
+ 
+}
+  
+img {
+    max-width: 100%;
+}
+  .contact-form {
+    width: 390px;
+  }
+  
+  .title {
+    display: block;
+    font-size: 43px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 44px;
+    font-family:montserrat;
+  }
+  
+  .input {
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px;
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    font-family: montserrat;
+    font-size:20px;
+    line-height: 1.5;
+    color: #666666;
+    outline: none;
+    border: none;
+  }
+
+  textarea.input {
+    min-height: 150px;
+    border-radius: 25px;
+    padding: 12px 30px;
+  }
+
+
+  .wrap-input {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 20px;
+
+  }
+  
+  .btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    justify-content: center;
+   
+  }
+
+button {
+    font-family: montserrat;
+    margin:0.7cm;
+    background:linear-gradient(45deg, #2b9348 0%, #55a630 99%, #80b918 100%); 
+    outline:none;
+    border:none;            
+    border-radius:0.85cm;  
+    padding: 0.4cm 1.2cm;  
+    font-size:0.6cm;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    cursor:pointer; 
+    color:white;
+
+}
+button:hover { 
+    transform: scale(1.1);     
+}

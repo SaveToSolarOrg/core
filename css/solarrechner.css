@@ -1,0 +1,25 @@
+@import url("../css/fonts.css");   
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;600&display=swap');
+
+body {
+    font-family: Readex Pro, sans-serif;
+}
+
+#Submit {
+    font-family: Readex Pro, sans-serif;
+    font-size:20px;
+    margin:0.7cm;
+    background:linear-gradient(45deg, #2b9348 0%, #55a630 99%, #80b918 100%); 
+    outline:none;
+    border:none;            
+    border-radius:0.85cm;  
+    padding: 0.4cm .5cm;  
+
+    font-family:roboto;
+    cursor:pointer; 
+    color:white;
+}
+#Submit:hover{
+    transform: scale(1.1);  
+
+}

@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>SolarRechner</title>
+        <link rel ="stylesheet" href="css/solarrechner.css">
+        <h1>SolarRechner</h1>
+
+    </head>
+    <body>
+        <form id="form" onsubmit="return false;">
+            <input  type="text" id="userInput" />
+            <input type="button" value="Submit" id="submit" onclick="submitForm()"></button>
+        </form>
+        
+        <script>
+        function submitForm() {
+            var input = document.getElementById("userInput").value;
+            console.log(input);
+           // document.forms.namedItem("form").reset(); würde inputfeld clearen
+
+           
+          
+             
+
+        }
+    </script>
+    </body>
+
+
+
+
+
+</html>
